@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.hero .container {
+    position: relative;
+}
+
+.hero .container nav{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1050px;
+}
+
+.hero .container nav button{
+    width: 100px;
+    height: 35px;
+    border: 1px solid red;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    font-size: 15px;
+}
+
+.hero .container .image img{
+    width: 1500px;
+    z-index: -1;
+    opacity: 0.5;
+}
+
+.hero .container .text{
+    position: absolute;
+    top: 300px;
+
+}
